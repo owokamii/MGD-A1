@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1585298734296946917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2885439342842339365}
+  - component: {fileID: 9078544317580405470}
+  - component: {fileID: 1648625937076051647}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2885439342842339365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585298734296946917}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9078544317580405470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585298734296946917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93e6e8ca3ba10b4999e7451190ed135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logPrefabs:
+  - {fileID: 5626060150536368972, guid: d49f7386bf4a1b444bd207d1faa3ff43, type: 3}
+  - {fileID: 9213207219110738672, guid: 780571c60cc250b44a11e9bd6f852428, type: 3}
+  - {fileID: 1272568830591407941, guid: f98f59fc3123b104e90ffeba6f00bcb5, type: 3}
+  - {fileID: 7087928389820823351, guid: 8ed00b3633b7498498587896d4f53701, type: 3}
+  - {fileID: 8532781679723636919, guid: 44da413dad01a7240abacb683760b7fc, type: 3}
+  - {fileID: 2946430724627250600, guid: b86e1575537fde3489219177e3f064a0, type: 3}
+  - {fileID: 5618140337024090971, guid: b6c2a339e4b202f4aa315c55a25dbb3a, type: 3}
+  - {fileID: 1870593995239765193, guid: f1406e7f972b2b8458ffcb54bae3ae35, type: 3}
+  - {fileID: 3760598638664601440, guid: 49a779ae3af24124fa432ce3a5de246b, type: 3}
+  - {fileID: 6799592896874755460, guid: 70c4c3b64bdccbb46abc73fccb76beaf, type: 3}
+  - {fileID: 9017928248772870978, guid: 2b03f6dc75f8b884cac06c5f193094cf, type: 3}
+  dynamitePrefab: {fileID: 5001646448376559552, guid: ddbec75e48fc7b34e90595888045e6ca,
+    type: 3}
+  dynamiteChance: 0.05
+  gameStartDelay: 3
+  minSpawnDelay: 0.25
+  maxSpawnDelay: 1
+  minAngle: -15
+  maxAngle: 15
+  minForce: 18
+  maxForce: 22
+  maxLifetime: 5
+--- !u!65 &1648625937076051647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585298734296946917}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 1, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
